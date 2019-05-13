@@ -6,12 +6,29 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<div class="topnav">
+<nav class="topbar">
+        <ul>
+           <li><a href="http://localhost/SangerHRoboticsW/index.php?">Home</a></li>
+           
+                    <li class="dd"><a href="http://localhost/SangerHRoboticsW/index.php?page=aboutUs">About</a>
+            
+            <ul class="ddc">
+            <li><a href="http://localhost/SangerHRoboticsW/index.php?page=robots">Robots</a></li>
+            <li><a href="http://localhost/SangerHRoboticsW/index.php?page=meetTheTeam">The Team</a></li>
+            </ul>
+            </li>
+            
 
-<a href="http://localhost/SangerHRoboticsW/index.php?" class="option1">Home</a>
-<a href="http://localhost/SangerHRoboticsW/index.php?page=aboutUs" class="option2">About</a>
-<a href="http://localhost/SangerHRoboticsW/index.php?page=media" class="option3">Media</a>
-<a href="http://localhost/SangerHRoboticsW/index.php?page=contact" class="option4">Contact</a>
-   
-
-</div>
+            
+            <li class="dd"><a href="http://localhost/SangerHRoboticsW/index.php?page=media">Media</a>
+            
+            <ul class="ddc">
+            <li><a href="http://localhost/SangerHRoboticsW/index.php?page=art">Art</a></li>
+            <li><a href="http://localhost/SangerHRoboticsW/index.php?page=videos">Videos</a></li>
+              <li><a href="http://localhost/SangerHRoboticsW/index.php?page=photos">Photos</a></li>
+            </ul>
+            </li>
+            <li><a href="Thank-you.html">Contact</a></li>
+            
+        </ul>
+    </nav>

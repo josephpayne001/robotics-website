@@ -7,19 +7,83 @@ footer {
     padding-bottom: 1%;
     padding-top: 1%;
     top: 0;
+    float: left;
+    max-height: 2%;
+    overflow: hidden;
 }
-.topnav a {
+.topnav a, .media a, .about a{
     text-decoration: none;
     color: white;
-     padding-left: 10.56%;
+     padding-left: 15.56%;
     padding-right: 10.56%;
     padding-top: inherit;
     padding-bottom: inherit;
-    margin-top: 20%;
-    margin-bottom: 5%;;
+    margin-top: 5%;
+    margin-bottom: 5%;
     font-size: 20pt;
+     float: left;
 }
 
 .topnav a:hover {
     background-color: gray;
 }
+.dropdown {
+    display: none;
+}
+.drop {
+    display: none;
+}
+.topnav {
+    top: 0;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav > ul > li {
+    display: block;
+}
+.dd{
+    position: relative;
+}
+.ddc{
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+.dd:hover .ddc{
+    display:block;
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: all ease 250ms;
+    background-color: black;
+    width: 100%;
+}
+nav ul li a:hover {
+    color: #ff0000;
+    background-color: #000000;
+}
+nav.topbar {
+   background:black; 
+}
+
+nav.topbar ul { 
+    margin: 0;
+    list-style: none;
+}
+
+nav.topbar ul li {
+    display: inline-block;
+}
+
+nav.topbar ul li a {
+    text-decoration: none;
+    color: firebrick;
+    padding: 20%;
+    display: inline-block;
+    font-size: 1.2em;
+}
+

@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+<div class="headerstyle">
+
+    <h1>Unirex 5487</h1>
+
+</div>
 <nav class="topbar">
         <ul>
            <li><a href="http://localhost/SangerHRoboticsW/index.php?">Home</a></li>
@@ -28,7 +33,7 @@
               <li><a href="http://localhost/SangerHRoboticsW/index.php?page=photos">Photos</a></li>
             </ul>
             </li>
-            <li><a href="Thank-you.html">Contact</a></li>
+            <li><a href="http://localhost/SangerHRoboticsW/index.php?page=contact">Contact</a></li>
             
         </ul>
     </nav>

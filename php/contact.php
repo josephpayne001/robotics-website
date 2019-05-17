@@ -1,1 +1,1 @@
-<h1>contacc</h1>
+<h1>Contact</h1>

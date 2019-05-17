@@ -1,0 +1,166 @@
+body {
+    background-image: url(IMAGESCSS/img_help.jpg)
+}
+footer {
+    border-radius: 20px 70px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+    flex: wrap;
+    background-color: dimgray;
+}
+
+.topnav a:hover {
+    background-color: gray;
+}
+.dropdown {
+    display: none;
+}
+.drop {
+    display: none;
+}
+.topnav {
+    top: 0;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav > ul > li {
+    border-radius: 20px 20px;
+    display: block;
+}
+.dd{
+    position: relative;
+}
+.ddc{
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+.dd:hover .ddc{
+    display:block;
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.5em;
+    background-color: dimgrey;
+    width: 100%;
+}
+nav ul li a:hover {
+    color: #ff0000;
+    background-color: #000000;
+}
+nav.topbar ul { 
+    margin-left: 350px;
+    margin-right: 350px;
+    list-style: none;
+}
+nav.topbar ul li {
+    display: inline-block;
+}
+nav.topbar ul li a {
+    border-radius: 20px 20px;
+    text-decoration: none;
+    color: darkorange;
+    display: inline-block;
+    font-size: 1.2em;
+}
+.topbar li {
+    width: 20%;
+    text-align: center;
+}
+.topbar li:hover , .topbar a:hover{
+background-color: darkgray;
+}
+.topbar a {
+    width: 100%;
+    padding: 5%;
+}
+.ddc li{
+    width: 100%;
+}
+.ddc a{
+    padding: 2%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    
+}
+.topbar li {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.artpage h1 {
+    width: 100%;
+    color: orangered;
+    font-family: "century gothic";
+    background-color: black;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 50pt;
+}
+.art1 , .art2 ,.art3 {
+    display: inline;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.art1 h3 , .art2 h3 , .art3 h3 {
+    color: darkorange;
+    background-color: dimgray;
+
+}
+.headerstyle {
+    background-position: center;
+    padding: 40px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(IMAGESCSS/Unirex-boi.PNG);
+}
+.home h1{
+    box-sizing: content-box;
+    padding: 10px;
+    text-align: center;
+    font-size: 60px;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+.home p{
+    border-radius: 10px 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: darkorange;
+    background-color: dimgrey;
+    flex: wrap;
+    text-align: center;
+    font-size: 30px;
+}
+.home h4{
+    border-radius: 10px 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: dimgrey;
+    text-align: center;
+    font-size: 40px;
+}
+.home h3{
+    border-radius: 200px 200px;
+    background-repeat: no-repeat; 
+    margin-right: 500px;
+    margin-left: 500px;
+    font-size: 600%;
+    justify-content: center;
+    height: 450px;
+    display:flex;
+    background-size: 100%;
+    background-image: url(IMAGESCSS/team_photo.JPG)
+}

@@ -1,5 +1,8 @@
 body {
-    background-image: url(IMAGESCSS/img_help.jpg)
+    background-image: url(IMAGESCSS/img_help.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 footer {
     border-radius: 20px 70px;
@@ -39,7 +42,7 @@ nav > ul > li {
     width: 100%;
 }
 .dd:hover .ddc{
-    display:block;
+    display: inline-block;
 }
 nav ul li a {
     display: block;
@@ -83,9 +86,10 @@ background-color: darkgray;
 }
 .ddc a{
     padding: 2%;
-    margin-bottom: 0%;
-    margin-top: 0%;
     
+}
+.ddc {
+    margin: 0;
 }
 .topbar li {
   margin-left: 1%;

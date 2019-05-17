@@ -13,6 +13,7 @@
     include("php/home.php");
 }
 
+  
 require('sections/footer.php');
 
 ?>

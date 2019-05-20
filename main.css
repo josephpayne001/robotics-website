@@ -1,5 +1,8 @@
 body {
-    background-image: url(IMAGESCSS/img_help.jpg)
+    background-image: url(IMAGESCSS/img_help.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 footer {
     border-radius: 20px 70px;
@@ -40,7 +43,7 @@ nav > ul > li {
     width: 100%;
 }
 .dd:hover .ddc{
-    display:block;
+    display: inline-block;
 }
 nav ul li a {
     margin-left: 22%;
@@ -86,10 +89,16 @@ nav.topbar ul li a {
     width: 100%;
 }
 .ddc a{
+
  padding: 2%;
     margin-bottom: 0%;
     margin-top: 0%;
+    padding: 2%;
+
     
+}
+.ddc {
+    margin: 0;
 }
 .topbar li {
   margin-left: 1%;
@@ -166,4 +175,32 @@ h2{
     display:flex;
     background-size: 100%;
     background-image: url(IMAGESCSS/team_photo.JPG)
+}
+.contactform {
+    background-color: dimgrey;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: darkorange;
+    border-radius: 9%;
+    margin-bottom: 5%;
+}
+.contactform input , .contactform textarea {
+    border-radius: 9%;
+    color: black;
+    font-size: 14pt;
+}
+.donate {
+     width: 50%;
+    margin: auto;
+    text-align: center;
+        border-radius: 9%;
+        color: darkorange;
+     background-color: dimgrey;
+}
+.donate p {
+    font-size: 20pt;
+}
+.contactpage h1 {
+    font-size: 50pt;
 }

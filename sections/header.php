@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Sanger High Robotics</title>
-    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
 <div class="headerstyle">
